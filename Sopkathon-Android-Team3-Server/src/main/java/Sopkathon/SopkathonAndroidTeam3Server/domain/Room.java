@@ -2,6 +2,7 @@ package Sopkathon.SopkathonAndroidTeam3Server.domain;
 
 import jakarta.persistence.*;
 import lombok.AccessLevel;
+import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 
@@ -17,4 +18,9 @@ public class Room  extends BaseTimeEntity{
     private Long id;
 
     private String code;
+
+    @Builder
+    public Room(String code) {
+        this.code = code;
+    }
 }
