@@ -40,8 +40,9 @@ public class ResultService {
             if(count == 0) {
                 count = 1;
                 resultResponse.add(ResultResponse.of(goodDay.getUser(), goodDay));
+            } else{
+                resultResponseToFullString.add(ResultResponseToFullString.of(goodDay.getUser(), goodDay));
             }
-            resultResponseToFullString.add(ResultResponseToFullString.of(goodDay.getUser(), goodDay));
         }
         resultList.put("fistUser",resultResponse.get(0));
         resultList.put("Other",resultResponseToFullString);
