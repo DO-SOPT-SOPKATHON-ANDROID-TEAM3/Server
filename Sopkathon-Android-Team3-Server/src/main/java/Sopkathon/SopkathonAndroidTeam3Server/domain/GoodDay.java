@@ -20,10 +20,11 @@ public class GoodDay extends BaseTimeEntity{
     @ManyToOne(fetch = FetchType.LAZY)
     private User user;
 
-    private String who;
 
-    private String where;
+    private String randomWho;
 
-    private String what;
+    private String randomWhere;
+
+    private String randomWhat;
 
 }
