@@ -1,6 +1,7 @@
 package Sopkathon.SopkathonAndroidTeam3Server.controller;
 
 
+import Sopkathon.SopkathonAndroidTeam3Server.dto.request.SlotSetRequest;
 import Sopkathon.SopkathonAndroidTeam3Server.service.SlotService;
 import Sopkathon.SopkathonAndroidTeam3Server.util.BaseApiResponse;
 import Sopkathon.SopkathonAndroidTeam3Server.util.BaseApiResponseNonData;
@@ -26,5 +27,11 @@ public class SlotController {
     @GetMapping()
     public BaseApiResponse getSlot(){
         return new BaseApiResponse("슬롯 조회 완료", slotService.getSlotItem());
+    }
+
+    @PostMapping
+    public BaseApiResponseNonData postSetSlotToNextUser(@RequestBody SlotSetRequest request){
+        slotService.setSlotToNextUser(request);
+        return new BaseApiResponseNonData("다음 유저에게 해당 slot이 넘어갑니다.");
     }
 }
