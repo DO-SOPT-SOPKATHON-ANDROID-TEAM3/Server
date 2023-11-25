@@ -17,4 +17,5 @@ public record ResultResponse(
                 goodDay.getRandomWhat()
         );
     }
+
 }
