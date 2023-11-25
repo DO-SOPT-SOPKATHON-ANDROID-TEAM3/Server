@@ -3,11 +3,22 @@
 
 ## Project
 ### 좋데바라
-> **DO-SOPT-SOPKATHON-ANDROID-TEAM3**<br>
+> **DO-SOPT-SOPKATHON-ANDROID-TEAM3**<br/>
 > 사회로부터 ‘자기주도적인 삶’을 강요받으며 ‘반복적인 삶’으로 번아웃을 겪는 서로에게 '새로운 하루'를 주고 받아보세요
 
 --- 
 <br>
+
+## 실행 방법
+Local에 현재 Repository Clone<br/>
+git clone https://github.com/DO-SOPT-SOPKATHON-ANDROID-TEAM3/Server.git<br/>
+
+
+Build 후 실행<br/>
+./gradlew clean build -x test 로 빌드<br/>
+cd build/libs<br/>
+java -jar 빌드파일명.jar 로 실행<br/>
+
 
 ## TEAM
 |<img width="409" alt="리정" src="https://github.com/DO-SOPT-SOPKATHON-ANDROID-TEAM3/Server/assets/102401928/e356b29c-8c9d-4602-9ad2-bb19e9cb4f8d">|<img width="392" alt="민니" src="https://github.com/DO-SOPT-SOPKATHON-ANDROID-TEAM3/Server/assets/102401928/c8963074-c315-421b-93c5-2c1593fd3df5">|
@@ -33,6 +44,8 @@
 
 
 ## Architecture
+![Group 1](https://github.com/DO-SOPT-SOPKATHON-ANDROID-TEAM3/Server/assets/102401928/21c3d8a0-d271-4c78-872b-0c70960300a3)
+
 
 <br>
 
