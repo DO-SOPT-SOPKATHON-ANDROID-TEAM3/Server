@@ -15,8 +15,21 @@
 |안현주|윤정원|
 |[hellozo0](https://github.com/hellozo0)|[gardening-y](https://github.com/gardening-y)|
 |담당|담당|
+|🎂어제생일자🎂</br>파일 세팅, ERD 생성</br>슬록 조회 API, 다음유저에게 해당 슬롯 설정하기 API, 최종리스트 API|🎂오늘생일자🎂</br>README 작성, ERD 생성</br>방생성하기API, 방 입장하기 API|
+
 
 <br>
+
+## Tech Stack🛠️
+  <img src="https://img.shields.io/badge/Java-007396?style=flat-square&logo=Java&logoColor=white"/></a>
+  <img src="https://img.shields.io/badge/Spring-6DB33F?style=flat-square&logo=Spring&logoColor=white"/></a>
+  <img src="https://img.shields.io/badge/SpringBoot-6DB33F?style=flat-square&logo=SpringBoot&logoColor=white"/></a>
+  <br>
+  <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=MySQL&logoColor=white"/></a>
+  <img src="https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=AWSL&logoColor=orange"/></a>
+  <img src="https://img.shields.io/badge/AWS_RDS-527FFF?style=flat-square&logo=AWSRDS&logoColor=orange"/></a>
+  <img src="https://img.shields.io/badge/AWS_EC2-FF9900?style=flat-square&logo=AWSLEC2&logoColor=orange"/></a>
+
 
 
 ## Architecture
@@ -26,6 +39,7 @@
 
 
 ## ER Diagram
+<img width="761" alt="스크린샷 2023-11-26 오전 12 46 14" src="https://github.com/DO-SOPT-SOPKATHON-ANDROID-TEAM3/Server/assets/62981652/b8e5a78f-b2da-4eac-ae23-dfb4073b8138">
 
 
 <br>
