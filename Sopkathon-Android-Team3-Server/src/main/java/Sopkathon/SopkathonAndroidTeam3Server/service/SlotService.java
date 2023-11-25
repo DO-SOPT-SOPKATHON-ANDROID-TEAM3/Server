@@ -27,7 +27,7 @@ public class SlotService {
         List<SlotItemResponse> slotItemResponse = slotRepository.findAll().stream().map(SlotItemResponse::of)
                 .collect(Collectors.toList());
 
-        return slotItemResponse.get(0);
+        return slotItemResponse.get(5);
 
     }
 

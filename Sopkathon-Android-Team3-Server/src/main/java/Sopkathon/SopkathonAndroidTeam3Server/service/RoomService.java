@@ -11,6 +11,8 @@ import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
+import java.util.UUID;
+
 @Service
 @RequiredArgsConstructor
 public class RoomService {
@@ -19,9 +21,13 @@ public class RoomService {
 
     @Transactional
     public RoomCreateResponse createRoom(UserCreateRequest request) {
+        String uuid = UUID.randomUUID().toString();
+        // 하이픈 제거
+        uuid = uuid.replaceAll("-", "");
         Room room = roomRepository.save(
                 Room.builder()
-                        .code("GOODAY")
+                        // 앞에서 6글자 추출
+                        .code(uuid.substring(0, 6))
                         .build()
         );
 
