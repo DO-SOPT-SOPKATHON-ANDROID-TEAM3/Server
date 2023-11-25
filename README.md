@@ -9,17 +9,6 @@
 --- 
 <br>
 
-## 실행 방법
-Local에 현재 Repository Clone<br/>
-git clone https://github.com/DO-SOPT-SOPKATHON-ANDROID-TEAM3/Server.git<br/>
-
-
-Build 후 실행<br/>
-./gradlew clean build -x test 로 빌드<br/>
-cd build/libs<br/>
-java -jar 빌드파일명.jar 로 실행<br/>
-
-
 ## TEAM
 |<img width="409" alt="리정" src="https://github.com/DO-SOPT-SOPKATHON-ANDROID-TEAM3/Server/assets/102401928/e356b29c-8c9d-4602-9ad2-bb19e9cb4f8d">|<img width="392" alt="민니" src="https://github.com/DO-SOPT-SOPKATHON-ANDROID-TEAM3/Server/assets/102401928/c8963074-c315-421b-93c5-2c1593fd3df5">|
 |:---:|:---:|
@@ -48,6 +37,18 @@ java -jar 빌드파일명.jar 로 실행<br/>
 
 
 <br>
+
+
+## 실행 방법
+Local에 현재 Repository Clone<br/>
+git clone https://github.com/DO-SOPT-SOPKATHON-ANDROID-TEAM3/Server.git<br/>
+
+
+Build 후 실행<br/>
+./gradlew clean build -x test 로 빌드<br/>
+cd build/libs<br/>
+java -jar 빌드파일명.jar 로 실행<br/>
+
 
 
 
